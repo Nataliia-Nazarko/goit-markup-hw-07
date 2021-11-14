@@ -1,0 +1,59 @@
+body {
+  color: $primary-text-color;
+  background-color: $primary-white-color;
+
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*Общиe вспомогательныe контейнеры*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Сброс стилей */
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+/* Title sections*/
+.none-title {
+  visibility: hidden;
+}
+
+.title {
+  color: $title-text-color;
+}

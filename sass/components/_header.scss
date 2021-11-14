@@ -1,0 +1,17 @@
+/* Header */
+
+.header {
+  width: 100%;
+  min-height: 80px;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #ececec;
+  background-color: $primary-white-color;
+}
+
+.header-part {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

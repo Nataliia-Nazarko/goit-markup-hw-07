@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="./css/styles.css"/>
+        <link rel="stylesheet" href="./css/profile.min.css"/>
     </head>
     <body>
         <!--Шапка сайта-->
@@ -22,14 +23,14 @@
                 
                 <!-- Навигация на другие страницы -->
                 <nav>
-                    <ul class="site-nav">
+                    <ul class="site-nav flex">
                         <li><a href="./index.html" class="link">Студия</a></li>
                         <li class="box"><a href="" class="link current">Портфолио</a></li>
                         <li><a href="" class="link">Контакты</a></li>
                     </ul>
                 </nav>
 
-                <ul class="kontakt-header">
+                <ul class="kontakt-header flex">
                     <li class="header-icons">
                         <a href="mailto:info@devstudio.com" class="link"><svg class="header-icon" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope"></use>
@@ -51,7 +52,7 @@
                     <h1 class="none-title">Наши работы</h1>
 
                         <!--Фильтр портфолио-->
-                        <ul class="filter-buttons">
+                        <ul class="filter-buttons flex">
                             <li><button type="button" class="fiter-button">Все</button></li>
                             <li><button type="button" class="fiter-button">Веб-сайты</button></li>
                             <li><button type="button" class="fiter-button">Приложения</button></li>
@@ -196,12 +197,12 @@
         <footer class="footer">
             <div class="container">
                 <div>
-                    <a href="/" class="logo">Web<span class="logo-footer">Studio</span></a>
+                    <a href="/" class="logo">Web<span class="footer__logo">Studio</span></a>
         
-                    <address class="address">
-                        <ul class="kontakt-footer">
+                    <address class="footer__address">
+                        <ul class="footer__kontakt">
                             <li>г. Киев, пр-т Леси Украинки, 26</li>
-                            <li class="email"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                            <li class="footer__email"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                             <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
                         </ul>
                     </address>
@@ -209,7 +210,7 @@
         
                 <div class="footer-links">
                     <p class="footer-link">присоединяйтесь</p>
-                    <ul class="social-links">
+                    <ul class="social-links flex">
                         <li class="box">
                             <svg class="icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
@@ -241,7 +242,7 @@
                     <p class="form-title">Подпишитесь на рассылку</p>
                     <form class="footer-form">
                         <label><input type="email" name="mail" placeholder="E-mail" class="form-field"></label>
-                        <button type="submit" class="button-submit">Подписаться<svg class="icon" width="24" height="24">
+                        <button type="submit" class="footer-button button">Подписаться<svg class="icon" width="24" height="24">
                                 <use href="./images/icons.svg#icon-send"></use>
                             </svg></button>
                     </form>

@@ -1,7 +1,7 @@
 /* Site-nav + Kontakt-header + Kontakt-footer */
 .site-nav .link,
 .kontakt-header .link,
-.kontakt-footer .link {
+.footer__kontakt .link {
   color: $title-text-color;
 
   font-family: $main-font;
@@ -19,8 +19,8 @@
 .site-nav .link:focus,
 .kontakt-header .link:hover,
 .kontakt-header .link:focus,
-.kontakt-footer .link:hover,
-.kontakt-footer .link:focus {
+.footer__kontakt .link:hover,
+.footer__kontakt .link:focus {
   color: $accent-color;
 }
 

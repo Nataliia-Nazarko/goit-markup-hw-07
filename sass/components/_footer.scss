@@ -10,13 +10,19 @@
   color: $primary-white-color;
 }
 
-.footer__kontakt .link {
+.footer__link {
+  @include linkstyle();
   color: rgba(255, 255, 255, 0.6);
 
   font-weight: $font-normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .footer__kontakt {
